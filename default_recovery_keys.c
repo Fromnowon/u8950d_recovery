@@ -44,8 +44,8 @@ int device_handle_key(int key_code, int visible) {
             case KEY_F21:
             case KEY_SEND:
             case KEY_END:
-            case KEY_POWER:
             case KEY_HOME:
+            case KEY_POWER:
                 return SELECT_ITEM;
             
             case KEY_BACKSPACE:
